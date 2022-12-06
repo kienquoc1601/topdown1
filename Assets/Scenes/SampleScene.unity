@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 287741478}
   - component: {fileID: 287741477}
   - component: {fileID: 287741479}
+  - component: {fileID: 287741480}
   m_Layer: 0
   m_Name: Droid1_idle_32x48
   m_TagString: Untagged
@@ -271,6 +272,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 287741478}
   speed: 4
+--- !u!114 &287741480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287741474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0b8b1068b663884fb0bb6ae0138ff56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
